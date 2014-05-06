@@ -10,7 +10,7 @@ angular.module('app.login', [])
 
     ref.addEventListener('loadstart', function(e) {
       var userId = /userId=(.+)/.exec(e.url);
-      
+
       if (userId) {
         $rootScope.userId = userId[1];
         ref.close();
