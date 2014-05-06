@@ -11,4 +11,6 @@ angular.module('twenty', [
       templateUrl: 'login/login.html',
       controller: 'LoginCtrl'
     });
+
+  $urlRouterProvider.when('', '/login');
 });
