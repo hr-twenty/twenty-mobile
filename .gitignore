@@ -1,7 +1,10 @@
 node_modules/
 bower_components/
 
+hooks/*
+merges/*
 platforms/*
-._*
+plugins/*
 
+._*
 .DS_Store
